@@ -1,0 +1,39 @@
+<!DOCTYPE html><html lang="pt-BR"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta name="theme-color" content="#14251b"><title>PROMOÇÕES | Exército Brasileiro</title><link rel="stylesheet" href="style.css"></head><body>
+<header class="topbar"><a class="brand" href="index.html"><div class="brand-mark">EB</div><div><strong>EXÉRCITO BRASILEIRO</strong><small>DISCIPLINA, HONRA E COMPROMISSO.</small></div></a><button class="menu-toggle" id="menuToggle" aria-label="Abrir menu">☰</button><nav id="mainNav"><a href="index.html">Início</a><a href="institucional.html">Institucional</a><a href="hierarquia.html">Hierarquia</a><a href="promocoes.html" class="active">Promoções</a><a href="regulamento.html">Regulamento</a><a href="avisos.html">Avisos</a><a href="contato.html">Comunidade</a></nav><a class="nav-button" href="https://www.roblox.com/share/g/87904266" target="_blank" rel="noopener">Comunidade Roblox ↗</a></header>
+<main><section class="page-hero"><span class="eyebrow">PORTAL INSTITUCIONAL • PROMOÇÕES</span><h1>RECONHECIMENTO <em>E EVOLUÇÃO.</em></h1><p>Uma área de apoio para registrar reconhecimentos e organizar os dados de progressão hierárquica.</p></section><section class="content"><h2>Como funciona o <em>reconhecimento?</em></h2><p>As promoções representam o reconhecimento da dedicação, da responsabilidade e da participação dos integrantes.</p><div class="cards"><article class="card"><span class="number">01</span><h3>Consulte os critérios</h3><p>Confira os critérios e requisitos aplicáveis antes de iniciar um registro.</p></article><article class="card"><span class="number">02</span><h3>Mantenha a conduta</h3><p>Participe das atividades com respeito e disciplina.</p></article><article class="card"><span class="number">03</span><h3>Acompanhe os avisos</h3><p>Confira os comunicados sobre processos e resultados.</p></article></div>
+<div class="promotion-area">
+  <div class="promotion-heading">
+    <span class="section-label">ÁREA ADMINISTRATIVA</span>
+    <h2>Registrar <em>promoção.</em></h2>
+    <p>Registre os dados do integrante, a patente de destino e o responsável pelo procedimento.</p>
+  </div>
+  <form id="promotionForm" class="promotion-form">
+    <label>Usuário do Roblox
+      <input id="robloxUser" name="robloxUser" type="text" placeholder="Ex.: Bruno090313" required maxlength="30">
+    </label>
+    <label>Patente atual
+      <select id="currentRank" required>
+        <option value="">Selecione a patente atual</option>
+      </select>
+    </label>
+    <label>Nova patente
+      <select id="newRank" required>
+        <option value="">Selecione a nova patente</option>
+      </select>
+    </label>
+    <label>Responsável pela promoção
+      <input id="promoter" type="text" placeholder="Nome do responsável" required maxlength="50">
+    </label>
+    <label class="full-field">Motivo / observações
+      <textarea id="promotionReason" rows="3" placeholder="Descreva brevemente o motivo da promoção." maxlength="500"></textarea>
+    </label>
+    <button class="button promotion-submit" type="submit">Preparar registro da promoção</button>
+  </form>
+  <div id="promotionResult" class="promotion-result" role="status" aria-live="polite" hidden></div>
+  <div class="history-box"><h3>Registros recentes neste navegador</h3><div id="promotionHistory" class="history-list"></div></div><p class="promotion-notice">Demonstração local: este formulário prepara e guarda registros neste navegador. Os dados ficam apenas neste navegador. O formulário ainda não altera a patente no Roblox nem sincroniza cargos do Discord.</p>
+</div>
+</section></main>
+<footer><div class="brand-mark small">EB</div><div><strong>EXÉRCITO BRASILEIRO</strong><small>DISCIPLINA, HONRA E COMPROMISSO.</small></div><span class="footer-note">Portal comunitário • Projeto independente</span><span class="copyright">© <span id="year"></span> — Todos os direitos reservados.</span></footer><script src="script.js"></script>
+
+
+</body></html>

@@ -1,0 +1,25 @@
+PORTAL EB — VERSÃO PROFISSIONAL
+
+COMO ABRIR
+1. Extraia todo o conteúdo do arquivo ZIP.
+2. Abra a pasta portal_eb.
+3. Dê dois cliques em index.html.
+
+ARQUIVOS
+- index.html: página inicial
+- institucional.html: apresentação do projeto
+- hierarquia.html: grupos e patentes
+- promocoes.html: formulário demonstrativo de registro de promoção
+- regulamento.html: orientações gerais
+- avisos.html: central de comunicados
+- contato.html: acesso à comunidade
+- style.css: identidade visual, responsividade e animações
+- script.js: menu, transições, animações e recursos do formulário
+
+IMPORTANTE SOBRE AS FUNÇÕES ADMINISTRATIVAS
+O formulário de promoção é uma demonstração de interface. Os registros ficam no armazenamento local do navegador e não são compartilhados entre computadores.
+Para entregar patentes diretamente no Roblox e sincronizar cargos do Discord, será necessário criar um servidor/backend seguro, configurar autenticação e permissões de administrador, mapear os IDs dos cargos do grupo Roblox e integrar as APIs oficiais. Nunca coloque chaves ou tokens secretos no JavaScript do navegador.
+
+O mural de avisos também precisa de backend ou integração com Discord para receber publicações automaticamente.
+
+Este é um projeto comunitário independente dentro do Roblox e não representa um canal oficial do Exército Brasileiro ou do Governo Federal.
